@@ -27,5 +27,7 @@ public void tc1() {
 
 		WebElement login = driver.findElement(By.name("login"));
 		login.click();
+		
+		driver.quit();
 }
 }
