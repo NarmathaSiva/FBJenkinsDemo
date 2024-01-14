@@ -29,5 +29,7 @@ public void tc1() {
 		login.click();
 		
 		driver.quit();
+		
+		driver.get("https://www.amazon.in/");
 }
 }
