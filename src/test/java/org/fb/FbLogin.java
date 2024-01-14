@@ -30,6 +30,10 @@ public void tc1() {
 		
 		driver.quit();
 		
-		driver.get("https://www.flipkart.com/");
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver1 = new ChromeDriver();
+		
+		driver1.get("https://www.flipkart.com/");
 }
 }
