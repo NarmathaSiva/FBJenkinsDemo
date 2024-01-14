@@ -30,6 +30,6 @@ public void tc1() {
 		
 		driver.quit();
 		
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.flipkart.com/");
 }
 }
